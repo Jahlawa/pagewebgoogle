@@ -47,6 +47,6 @@ div{
 	padding-top: 10px;
 }
 
-
-
-
+.border-flex {
+  border:2px solid red;
+}
