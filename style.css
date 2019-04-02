@@ -47,7 +47,13 @@ margin-top:10px;
 	justify-content: space-between;
 	width:250px;
 	margin-top: 20px;
+}
 
+#bouttons input[type=button]{
+	border-style: none;
+	background-color: #ededf2;
+	height: 35px;
+	color: #555559;
 }
 .bouton_bleu {
 	background-color: blue;
@@ -59,8 +65,9 @@ margin-top:10px;
 
 
 footer {
-	background-color: lightgrey;
+	background-color: #f4f4f7;
 	font-family: arial, sans-serif;
+	color: #85858c; 
 	
 }
 
@@ -70,16 +77,18 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	height: 40px;
-	border-top: 1px solid black;
+	border-top: 1px solid #ededf2;
 
 }
 footer a{
 	margin: 0px 5px 0px 15px;
+	color: #85858c;
 }
 #country{
 	padding-left: 15px;
 	height: 40px;
-	border-top: 1px solid black;
+	border-top: 1px solid #ededf2;
 	display:flex;
 	align-items: center;
+	font-size: 14px;
 }
